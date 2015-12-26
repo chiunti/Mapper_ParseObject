@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OCMapperConfig.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [OCMapperConfig configure];
     // Override point for customization after application launch.
     return YES;
 }

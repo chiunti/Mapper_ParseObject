@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self getRemoteData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)getRemoteData{
+    NSString *stPushToken = @"1234";
+    NSDictionary *dict = [WebServices testPost:stPushToken];
+    print(NSLog(@"dict = %@", dict));
+}
 @end
