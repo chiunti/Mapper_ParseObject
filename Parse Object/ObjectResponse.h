@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface ObjectResponse : NSObject
-
+@property (nonatomic,strong) NSString *responseStatus;
+@property (nonatomic,strong) NSString *message;
+@property (nonatomic,strong) NSString *data;
 @end

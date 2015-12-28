@@ -7,6 +7,9 @@
 //
 
 #import "Declarations.h"
+NSDictionary *mjsonRegister;
+NSDictionary *mjsonZones;
+NSDictionary *mjsonWeather;
 
 @implementation Declarations
 

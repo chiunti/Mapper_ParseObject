@@ -12,6 +12,7 @@
 #define nURLServer           @"http://demo4253576.mockable.io"
 #define nURLTestPost         @"/test"
 
+#define nURLWeather                 @"http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=2de143494c0b295cca9337e1e96b00e0"
 #define nGET   0
 #define nPOST  1
 
@@ -28,7 +29,15 @@
     NSString  *stData           = [diData JSONRepresentation];
     return [self sendREST:([nURLServer stringByAppendingString:nURLTestPost]) forData:stData andMode:nPOST];
 }
-
+/**********************************************************************************************/
+#pragma mark - weather methods
+/**********************************************************************************************/
++ (NSDictionary *)getWeather {
+    print(NSLog(@"getWeather"))
+    NSMutableDictionary *diData = [[NSMutableDictionary alloc]init];
+    NSString  *stData           = [diData JSONRepresentation];
+    return [self sendREST:(nURLWeather) forData:stData andMode:nGET];
+}
 /**********************************************************************************************/
 #pragma mark - json common method
 /**********************************************************************************************/

@@ -10,6 +10,7 @@
 #import "SBJson.h"
 #import "ObjectMapper.h"
 #import "ObjectResponse.h"
+#import "WeatherResponse.h"
 
 //Debug
 #define nDebugEnable        1
@@ -20,7 +21,7 @@
 
 extern NSDictionary *mjsonRegister;
 extern NSDictionary *mjsonZones;
-
+extern NSDictionary *mjsonWeather;
 @interface Declarations : NSObject
 
 @end

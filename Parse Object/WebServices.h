@@ -10,5 +10,5 @@
 
 @interface WebServices : NSObject
 + (NSDictionary *)testPost:(NSString *)pushToken;
-
++ (NSDictionary *)getWeather;
 @end

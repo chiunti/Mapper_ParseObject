@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self getRemoteData];
+    [self getWeather];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,7 +27,19 @@
 
 - (void)getRemoteData{
     NSString *stPushToken = @"1234";
-    NSDictionary *dict = [WebServices testPost:stPushToken];
-    print(NSLog(@"dict = %@", dict));
+    mjsonRegister = [WebServices testPost:stPushToken];
+    ObjectResponse *objectResponse = [Parser parseRegisterObject];
+    NSString *stResponseStatus = objectResponse.responseStatus;
+    
+    
+    //print(NSLog(@"dict = %@", dict));
+    print(NSLog(@"stResponseStatus = %@", stResponseStatus));
+}
+
+-(void) getWeather{
+    mjsonWeather = [WebServices getWeather];
+    print(NSLog(@"mjsonWeather = %@",mjsonWeather))
+    WeatherResponse *weatherResponse = [Parser parseWeatherObject];
+    print(NSLog(@"weather.base = %@",weatherResponse.base))
 }
 @end
