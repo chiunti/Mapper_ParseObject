@@ -41,5 +41,12 @@
     print(NSLog(@"mjsonWeather = %@",mjsonWeather))
     WeatherResponse *weatherResponse = [Parser parseWeatherObject];
     print(NSLog(@"weather.base = %@",weatherResponse.base))
+    
+    int size = (int)[weatherResponse.weather count];
+    print(NSLog(@"size = %d",size))
+    
+    NSString *description = ((WeatherObject *)weatherResponse.weather[0]).weather_description;
+    print(NSLog(@"description = %@",description))
+    
 }
 @end

@@ -11,6 +11,9 @@
 #import "ObjectMapper.h"
 #import "ObjectResponse.h"
 #import "WeatherResponse.h"
+#import "WeatherObject.h"
+#import "CoordObject.h"
+#import "MainObject.h"
 
 //Debug
 #define nDebugEnable        1

@@ -40,6 +40,12 @@
 		84776D6C1C0B4B2B00100599 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84776D6B1C0B4B2B00100599 /* OCMapperConfig.m */; };
 		84776D701C0B560300100599 /* ObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84776D6F1C0B560300100599 /* ObjectResponse.m */; };
 		84776D751C0B72BA00100599 /* WeatherResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84776D741C0B72BA00100599 /* WeatherResponse.m */; };
+		849DF1D41C3109FB009B68D9 /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DF1D31C3109FB009B68D9 /* WeatherObject.m */; };
+		849DF1D71C310F34009B68D9 /* CoordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DF1D61C310F34009B68D9 /* CoordObject.m */; };
+		849DF1DA1C3110E5009B68D9 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DF1D91C3110E5009B68D9 /* MainObject.m */; };
+		849DF1DD1C31140A009B68D9 /* CloudsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DF1DC1C31140A009B68D9 /* CloudsObject.m */; };
+		849DF1E01C3114AE009B68D9 /* SysObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DF1DF1C3114AE009B68D9 /* SysObject.m */; };
+		849DF1E31C311515009B68D9 /* WindObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DF1E21C311515009B68D9 /* WindObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +117,18 @@
 		84776D6F1C0B560300100599 /* ObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectResponse.m; sourceTree = "<group>"; };
 		84776D731C0B72BA00100599 /* WeatherResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherResponse.h; sourceTree = "<group>"; };
 		84776D741C0B72BA00100599 /* WeatherResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherResponse.m; sourceTree = "<group>"; };
+		849DF1D21C3109FB009B68D9 /* WeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObject.h; sourceTree = "<group>"; };
+		849DF1D31C3109FB009B68D9 /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
+		849DF1D51C310F34009B68D9 /* CoordObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordObject.h; sourceTree = "<group>"; };
+		849DF1D61C310F34009B68D9 /* CoordObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordObject.m; sourceTree = "<group>"; };
+		849DF1D81C3110E5009B68D9 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		849DF1D91C3110E5009B68D9 /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
+		849DF1DB1C31140A009B68D9 /* CloudsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudsObject.h; sourceTree = "<group>"; };
+		849DF1DC1C31140A009B68D9 /* CloudsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudsObject.m; sourceTree = "<group>"; };
+		849DF1DE1C3114AE009B68D9 /* SysObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysObject.h; sourceTree = "<group>"; };
+		849DF1DF1C3114AE009B68D9 /* SysObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysObject.m; sourceTree = "<group>"; };
+		849DF1E11C311515009B68D9 /* WindObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindObject.h; sourceTree = "<group>"; };
+		849DF1E21C311515009B68D9 /* WindObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +331,18 @@
 			children = (
 				84776D731C0B72BA00100599 /* WeatherResponse.h */,
 				84776D741C0B72BA00100599 /* WeatherResponse.m */,
+				849DF1D21C3109FB009B68D9 /* WeatherObject.h */,
+				849DF1D31C3109FB009B68D9 /* WeatherObject.m */,
+				849DF1D51C310F34009B68D9 /* CoordObject.h */,
+				849DF1D61C310F34009B68D9 /* CoordObject.m */,
+				849DF1D81C3110E5009B68D9 /* MainObject.h */,
+				849DF1D91C3110E5009B68D9 /* MainObject.m */,
+				849DF1DB1C31140A009B68D9 /* CloudsObject.h */,
+				849DF1DC1C31140A009B68D9 /* CloudsObject.m */,
+				849DF1DE1C3114AE009B68D9 /* SysObject.h */,
+				849DF1DF1C3114AE009B68D9 /* SysObject.m */,
+				849DF1E11C311515009B68D9 /* WindObject.h */,
+				849DF1E21C311515009B68D9 /* WindObject.m */,
 			);
 			name = Weather;
 			sourceTree = "<group>";
@@ -397,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849DF1E31C311515009B68D9 /* WindObject.m in Sources */,
 				84776D5D1C0B47EF00100599 /* CommonLoggingProvider.m in Sources */,
 				84776D011C0B467A00100599 /* ViewController.m in Sources */,
 				84776CFE1C0B467A00100599 /* AppDelegate.m in Sources */,
@@ -405,8 +436,10 @@
 				84776D501C0B47EF00100599 /* SBJsonStreamParserAccumulator.m in Sources */,
 				84776D521C0B47EF00100599 /* SBJsonStreamParserState.m in Sources */,
 				84776D591C0B47EF00100599 /* NSDictionary+ObjectMapper.m in Sources */,
+				849DF1DD1C31140A009B68D9 /* CloudsObject.m in Sources */,
 				84776D6C1C0B4B2B00100599 /* OCMapperConfig.m in Sources */,
 				84776D581C0B47EF00100599 /* SBJsonWriter.m in Sources */,
+				849DF1DA1C3110E5009B68D9 /* MainObject.m in Sources */,
 				84776D5E1C0B47EF00100599 /* InCodeMappingProvider.m in Sources */,
 				84776D071C0B467A00100599 /* Parse_Object.xcdatamodeld in Sources */,
 				84776D551C0B47EF00100599 /* SBJsonStreamWriterState.m in Sources */,
@@ -419,14 +452,17 @@
 				84776D4D1C0B47EF00100599 /* NSObject+SBJson.m in Sources */,
 				84776D661C0B4ACD00100599 /* WebServices.m in Sources */,
 				84776CFB1C0B467A00100599 /* main.m in Sources */,
+				849DF1D71C310F34009B68D9 /* CoordObject.m in Sources */,
 				84776D5F1C0B47EF00100599 /* ObjectMapper.m in Sources */,
 				84776D531C0B47EF00100599 /* SBJsonStreamWriter.m in Sources */,
+				849DF1E01C3114AE009B68D9 /* SysObject.m in Sources */,
 				84776D511C0B47EF00100599 /* SBJsonStreamParserAdapter.m in Sources */,
 				84776D601C0B47EF00100599 /* ObjectMappingInfo.m in Sources */,
 				84776D5C1C0B47EF00100599 /* ObjectInstanceProvider.m in Sources */,
 				84776D701C0B560300100599 /* ObjectResponse.m in Sources */,
 				84776D5B1C0B47EF00100599 /* ManagedObjectInstanceProvider.m in Sources */,
 				84776D751C0B72BA00100599 /* WeatherResponse.m in Sources */,
+				849DF1D41C3109FB009B68D9 /* WeatherObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

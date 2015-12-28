@@ -21,5 +21,16 @@
     /******************* Alerts **********************/
     /*[inCodeMappingProvider mapFromDictionaryKey:@"zones" toPropertyKey:@"zones"
                                  withObjectType:[ZonesObject class] forClass:[ObjectResponse class]];*/
+
+    /******************* mapping **********************/
+    [inCodeMappingProvider mapFromDictionaryKey:@"weather" toPropertyKey:@"weather"
+     withObjectType:[WeatherObject class] forClass:[WeatherResponse class]];
+
+    [inCodeMappingProvider mapFromDictionaryKey:@"description" toPropertyKey:@"weather_description"
+                                 withObjectType:[NSString class] forClass:[WeatherObject class]];
+
+    [inCodeMappingProvider mapFromDictionaryKey:@"main" toPropertyKey:@"main_object"
+                                 withObjectType:[MainObject class] forClass:[WeatherResponse class]];
+
 }
 @end
